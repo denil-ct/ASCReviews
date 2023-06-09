@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C315BF322A365A250018766E /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315BF312A365A250018766E /* Coordinates.swift */; };
 		C3777FBF2A3322FB00E8ABA7 /* ASCReviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3777FBE2A3322FB00E8ABA7 /* ASCReviewsApp.swift */; };
-		C3777FC12A3322FB00E8ABA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3777FC02A3322FB00E8ABA7 /* ContentView.swift */; };
+		C3777FC12A3322FB00E8ABA7 /* ReviewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3777FC02A3322FB00E8ABA7 /* ReviewsListView.swift */; };
 		C3777FC32A3322FC00E8ABA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3777FC22A3322FC00E8ABA7 /* Assets.xcassets */; };
 		C3777FC62A3322FC00E8ABA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3777FC52A3322FC00E8ABA7 /* Preview Assets.xcassets */; };
+		C3777FCE2A33247D00E8ABA7 /* AppStoreConnect-Swift-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = C3777FCD2A33247D00E8ABA7 /* AppStoreConnect-Swift-SDK */; };
+		C3777FD02A332F2B00E8ABA7 /* ReviewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3777FCF2A332F2B00E8ABA7 /* ReviewsViewModel.swift */; };
+		C37C35342A33B55500B8D035 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37C35332A33B55500B8D035 /* OnboardingViewModel.swift */; };
+		C37C35362A33B59000B8D035 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37C35352A33B59000B8D035 /* OnboardingView.swift */; };
+		C37C35392A33B62D00B8D035 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = C37C35382A33B62D00B8D035 /* KeychainAccess */; };
+		C39D850B2A3644FB00A7F725 /* CSVDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D850A2A3644FB00A7F725 /* CSVDocument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C315BF312A365A250018766E /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		C3777FBB2A3322FB00E8ABA7 /* ASCReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASCReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3777FBE2A3322FB00E8ABA7 /* ASCReviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCReviewsApp.swift; sourceTree = "<group>"; };
-		C3777FC02A3322FB00E8ABA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3777FC02A3322FB00E8ABA7 /* ReviewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsListView.swift; sourceTree = "<group>"; };
 		C3777FC22A3322FC00E8ABA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3777FC52A3322FC00E8ABA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3777FCF2A332F2B00E8ABA7 /* ReviewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewModel.swift; sourceTree = "<group>"; };
+		C37C35332A33B55500B8D035 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		C37C35352A33B59000B8D035 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C39D850A2A3644FB00A7F725 /* CSVDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37C35392A33B62D00B8D035 /* KeychainAccess in Frameworks */,
+				C3777FCE2A33247D00E8ABA7 /* AppStoreConnect-Swift-SDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				C3777FBE2A3322FB00E8ABA7 /* ASCReviewsApp.swift */,
-				C3777FC02A3322FB00E8ABA7 /* ContentView.swift */,
+				C3777FC02A3322FB00E8ABA7 /* ReviewsListView.swift */,
+				C39D850A2A3644FB00A7F725 /* CSVDocument.swift */,
+				C3777FCF2A332F2B00E8ABA7 /* ReviewsViewModel.swift */,
+				C37C35332A33B55500B8D035 /* OnboardingViewModel.swift */,
+				C37C35352A33B59000B8D035 /* OnboardingView.swift */,
+				C315BF312A365A250018766E /* Coordinates.swift */,
 				C3777FC22A3322FC00E8ABA7 /* Assets.xcassets */,
 				C3777FC42A3322FC00E8ABA7 /* Preview Content */,
 			);
@@ -83,6 +102,10 @@
 			dependencies = (
 			);
 			name = ASCReviews;
+			packageProductDependencies = (
+				C3777FCD2A33247D00E8ABA7 /* AppStoreConnect-Swift-SDK */,
+				C37C35382A33B62D00B8D035 /* KeychainAccess */,
+			);
 			productName = ASCReviews;
 			productReference = C3777FBB2A3322FB00E8ABA7 /* ASCReviews.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,10 @@
 				Base,
 			);
 			mainGroup = C3777FB22A3322FA00E8ABA7;
+			packageReferences = (
+				C3777FCC2A33247D00E8ABA7 /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */,
+				C37C35372A33B62C00B8D035 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = C3777FBC2A3322FB00E8ABA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3777FC12A3322FB00E8ABA7 /* ContentView.swift in Sources */,
+				C3777FC12A3322FB00E8ABA7 /* ReviewsListView.swift in Sources */,
+				C39D850B2A3644FB00A7F725 /* CSVDocument.swift in Sources */,
 				C3777FBF2A3322FB00E8ABA7 /* ASCReviewsApp.swift in Sources */,
+				C3777FD02A332F2B00E8ABA7 /* ReviewsViewModel.swift in Sources */,
+				C37C35362A33B59000B8D035 /* OnboardingView.swift in Sources */,
+				C37C35342A33B55500B8D035 /* OnboardingViewModel.swift in Sources */,
+				C315BF322A365A250018766E /* Coordinates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +315,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dencorp.ASCReviews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +348,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dencorp.ASCReviews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +379,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3777FCC2A33247D00E8ABA7 /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AvdLee/appstoreconnect-swift-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.0;
+			};
+		};
+		C37C35372A33B62C00B8D035 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = exactVersion;
+				version = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3777FCD2A33247D00E8ABA7 /* AppStoreConnect-Swift-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3777FCC2A33247D00E8ABA7 /* XCRemoteSwiftPackageReference "appstoreconnect-swift-sdk" */;
+			productName = "AppStoreConnect-Swift-SDK";
+		};
+		C37C35382A33B62D00B8D035 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37C35372A33B62C00B8D035 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3777FB32A3322FA00E8ABA7 /* Project object */;
 }
